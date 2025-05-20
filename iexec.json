@@ -1,0 +1,25 @@
+{
+  "description": "My iExec resource description, must be at least 150 chars long in order to pass the validation checks. Describe your application, dataset or workerpool to your users",
+  "license": "MIT",
+  "author": "?",
+  "social": {
+    "website": "?",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "buyConf": {},
+  "app": {
+    "owner": "0xB0b552107C14A5e4BCf20f359DeF23Ac6003Abde",
+    "name": "dcgan",
+    "type": "DOCKER",
+    "multiaddr": "docker.io/raorla/tee-dcgan-generator:1.0.0-debug",
+    "checksum": "0x6b99e0b10e070ac43d766e820967c0afb90c286b99ab539b344c3de3fa578744",
+    "mrenclave": {
+      "framework": "SCONE",
+      "version": "v5.9",
+      "entrypoint": "python3 /app/app.py",
+      "heapSize": 1073741824,
+      "fingerprint": "e16e13d85db8156a28fb0d1ecef70ca2257d5d3a12969151d79052f54adfa418"
+    }
+  }
+}
